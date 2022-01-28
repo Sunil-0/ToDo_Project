@@ -103,7 +103,7 @@ class _newtaskState extends State<newtask> {
                         time = pickedTime;
                         setState((){});
 
-                        timeController.text = pickedTime.format(context);
+                        timeController.text = TimeOfDayFormat.HH_dot_mm.toString();
                         }
                       },
                     ),
